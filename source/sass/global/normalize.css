@@ -350,4 +350,9 @@ template {
   display: none;
 }
 
+ol,ul {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 // !== <!DOCTYPE Liky>

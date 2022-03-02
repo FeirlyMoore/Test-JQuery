@@ -328,6 +328,10 @@ template {
 [hidden] {
   display: none; }
 
+ol, ul {
+  padding: 0 !important;
+  margin: 0 !important; }
+
 ::selection {
   background-color: rgba(255, 69, 0, 0.8); }
 
@@ -465,3 +469,16 @@ template {
   color: #ffffff;
   font-family: "Oswald Medium", "Arial", sans-serif;
   font-size: 3em; }
+
+.recipes {
+  display: flex;
+  flex-direction: column; }
+
+.recipe__table {
+  border: 1px solid #222222; }
+
+.recipe__title {
+  border: 1px solid #222222; }
+
+.recipe__ingredient-name {
+  border: 1px solid #222222; }
