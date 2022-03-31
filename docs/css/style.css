@@ -495,9 +495,13 @@ ol, ul {
   font-size: 1.8em;
   letter-spacing: 2px;
   border-radius: 40px;
+  transition: .2s;
   background: linear-gradient(90deg, #0162c8, #55e7fc); }
   .deco-btn__btn:nth-child(2) {
     background: linear-gradient(90deg, #755bea, #ff72c0); }
+  .deco-btn__btn:hover {
+    transition: .2s;
+    padding: 12px 41px; }
 
 .ripples {
   position: absolute;
