@@ -474,6 +474,49 @@ ol, ul {
   display: flex;
   flex-direction: column; }
 
+.deco-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #040d15; }
+
+.deco-btn__btn {
+  position: relative;
+  display: inline-block;
+  user-select: none;
+  overflow: hidden;
+  padding: 12px 36px;
+  margin: 10px 0;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #0162c8, #55e7fc); }
+  .deco-btn__btn:nth-child(2) {
+    background: linear-gradient(90deg, #755bea, #ff72c0); }
+
+.ripples {
+  position: absolute;
+  background-color: #ffffff;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  border-radius: 50%;
+  animation: ripples .5s linear infinite; }
+
+@keyframes ripples {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: .5; }
+  100% {
+    width: 500px;
+    height: 500px;
+    opacity: 0; } }
+
 .recipe__table {
   border: 1px solid #222222; }
 
